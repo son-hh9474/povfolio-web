@@ -1,0 +1,37 @@
+body {
+    width: 1440px;
+    height: 8063px;
+    background: var(--Background, #F0F0F6);
+    display: flex;
+}
+
+.info-1 {
+    width: 305px;
+    height: 1315px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+}
+
+.info-1-profile {
+    width: 219px;
+    height: 281px;
+    margin: 50px 46px 25px 40px;
+}
+
+.info-1-profile-icon {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-2 {
+    width: 970px;
+    height: 8063px;
+}
+
+.info-3 {
+    width: 108px;
+    height: 1315px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+}
