@@ -5,17 +5,44 @@ body {
     display: flex;
 }
 
+
+.font-word-inter-big {
+    color: var(--Black, #2B2B2B);
+    /* H4 - 18px */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+}
+
+.font-word-inter-small {
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
 .info-1 {
     width: 305px;
     height: 1315px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
     background: var(--White, #FFF);
 }
 
 .info-1-profile {
     width: 219px;
     height: 281px;
-    margin: 50px 46px 25px 40px;
+    margin: 50px 46px 0px 40px;
+    text-align: center;
 }
 
 .info-1-profile-icon {
@@ -23,6 +50,77 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.info-1-line {
+    margin: 25px 45px 25px 40px;
+    width: 220px;
+    height: 1.5px;
+    background-color: #F0F0F6;
+}
+
+.info-1-About-container {
+    display: flex;
+    margin: 0px 45px 0px 40px;
+    width: 220px;
+    height: 126px;
+    flex-direction: column;
+}
+
+.info-1-About-container-item-container {
+    color: #2B2B2B;
+    width: 220px;
+    height: 25px;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    display: flex;
+}
+.info-1-About-container-item-container-item1 {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FFB400;
+}
+.info-1-About-container-item-container-item2 {
+    text-align: right;
+}
+
+
+.info-1-Languages {
+    width: 220px;
+    height: 153px;
+    display: flex;
+    margin: 0px 45px 0px 40px;
+    flex-direction: column;
+}
+
+.info-1-Languages-item-container {
+    display: flex;
+    width: 220px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.info-1-Languages-item-container-item {
+    height: 24px;
+}
+
+.info-1-Languages-item-container-line {
+    width: 220px;
+    height: 4px;
+    margin: 5px 0px 9px 0px;
+}
+
+.info-1-Skills {
+    width: 220px;
+    height: 242px;
+}
+
+.info-1-Extra_Skills {
+    width: 186px;
+    height: 148px;
+}
+
+
+
 
 .info-2 {
     width: 970px;
