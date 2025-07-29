@@ -1,57 +1,375 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Programme Language</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 
-    <body>
-        <div class="info-1">
-            <div class="info-1-profile">
-                <img src="info-1/Profile.png" alt="Profile" style="margin: 0px 35px 25px 24px;">
-                <p style="color: var(--Black, #2B2B2B);
-                        /* H4 - 18px */
-                        font-family: Inter;
-                        font-size: 18px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 123.6%; /* 22.248px */
-                        text-transform: capitalize;
-                        margin: 0px 40px 0px 37px;">
-                        Rayan Adlardard
-                </p>
-                <p style="color: var(--Paragraph-Font, #767676);
-                        font-kerning: none;
-                        font-feature-settings: 'calt' off;
-                        /* Paragraph Progress - 15 */
-                        font-family: Inter;
-                        font-size: 15px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 24px; /* 160% */
-                        text-transform: capitalize;
-                        margin: 15px 38px 0px 38px;">
-                        Font-end Developer
-                </p>
-                <div class="info-1-profile-icon">
-                    <img src="info-1/Facebook.png" alt="icon">
-                    <img src="info-1/Instagram.png" alt="icon">
-                    <img src="info-1/Twitter.png" alt="icon">
-                    <img src="info-1/Linkeding.png" alt="icon">
-                    <img src="info-1/Youtube.png" alt="icon">
-                    <img src="info-1/Dribbble.png" alt="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lay-out">
+
+        <!-- side bar area -->
+        <aside class="side-bar">
+            <!-- profile -->
+            <img src="images/profile/title/Profile.png" alt="" class="side-bar-profile">
+            <p class="font-title side-bar-title">Rayan Adlardard</p>
+            <p class="font-word side-bar-major">Front-end Developer</p>
+            <div class="side-bar-icon">
+                <img src="images/profile/title/Facebook.png" alt="icon" class="side-bar-icon-item">
+                <img src="images/profile/title/Instagram.png" alt="icon" class="side-bar-icon-item">
+                <img src="images/profile/title/Twitter.png" alt="icon" class="side-bar-icon-item">
+                <img src="images/profile/title/Linkeding.png" alt="icon" class="side-bar-icon-item">
+                <img src="images/profile/title/Youtube.png" alt="icon" class="side-bar-icon-item">
+                <img src="images/profile/title/Dribbble.png" alt="icon" class="side-bar-icon-item">
+            </div>
+
+            <div class="side-bar-line"></div>
+            <!-- info -->
+            <div class="side-bar-info font-word">
+                <div class="side-bar-info-container">
+                    <div class="side-bar-info-container-age">Age:</div>
+                    <p>24</p>
+                </div>
+                <div class="side-bar-info-container">  
+                    <div class="side-bar-info-container-residence">Residence:</div>
+                    <p>BD</p>                  
+                </div>
+                <div class="side-bar-info-container">
+                    <div class="side-bar-info-container-freelance">Freelance:</div>
+                    <p>Available</p>
+                </div>
+                <div class="side-bar-info-container">
+                    <div class="side-bar-info-container-address">Address:</div>
+                    <p>Dhaka,Bangladesh</p>
                 </div>
             </div>
-        </div>
 
-        <div class="info-2">
-            
-        </div>
+            <div class="side-bar-line"></div>
 
-        <div class="info-3">
-            
-        </div>
-    </body>
+            <!-- language  -->
+            <div class="side-bar-language">
+                <p class="font-title" style="padding-bottom: 15px;">Languages</p>
+                <div class="side-bar-language-container font-word">
+                    <div class="side-bar-language-container-item">Bangla</div>
+                    <p>100%</p>
+                </div>
+                <img src="images/profile/languages/Line.png" alt="" class="side-bar-language-img">
+                <div class="side-bar-language-container  font-word">
+                    <div class="side-bar-language-container-item">English</div>
+                    <p>80%</p>
+                </div>
+                <img src="images/profile/languages/Line (1).png" alt="" class="side-bar-language-img">                
+                <div class="side-bar-language-container   font-word">
+                    <div class="side-bar-language-container-item">Spanish</div>
+                    <p>60%</p>
+                </div>
+                <img src="images/profile/languages/Line (2).png" alt="" class="side-bar-language-img"  style="padding-bottom: 0px;">
+            </div>
 
+            <div class="side-bar-line"></div>
 
+            <!-- skill -->
+            <div class="side-bar-skill">
+                <p class="font-title" style="padding-bottom: 15px;">Skills</p>
+                <div class="side-bar-skill-container font-word">
+                    <div class="side-bar-skill-container-item">Html</div>
+                    <p>90%</p>
+                </div>
+                <img src="images/profile/skills/Line (3).png" alt="" class="side-bar-skill-img">
+                <div class="side-bar-skill-container font-word">
+                    <div class="side-bar-skill-container-item">CSS</div>
+                    <p>85%</p>
+                </div>
+                <img src="images/profile/skills/Line (4).png" alt="" class="side-bar-skill-img">
+                <div class="side-bar-skill-container font-word">
+                    <div class="side-bar-skill-container-item">Js</div>
+                    <p>80%</p>
+                </div>
+                <img src="images/profile/skills/Line (5).png" alt="" class="side-bar-skill-img">
+                <div class="side-bar-skill-container font-word">
+                    <div class="side-bar-skill-container-item">PHP</div>
+                    <p>75%</p>
+                </div>
+                <img src="images/profile/skills/Line (6).png" alt="" class="side-bar-skill-img">                
+                <div class="side-bar-skill-container font-word">
+                    <div class="side-bar-skill-container-item  font-word">WordPress</div>
+                    <p>85%</p>
+                </div>
+                <img src="images/profile/skills/Line (7).png" alt="" class="side-bar-skill-img"  style="padding-bottom: 0px;">
+            </div>
+
+            <div class="side-bar-line"></div>
+
+            <!-- extra skill -->
+            <div class="side-bar-extra_skill">
+                <p class="font-title" style="padding-bottom: 15px;">Extra Skills</p>
+                <div class="side-bar-extra_skill-container">
+                    <img src="images/profile/extra-skills/Icons.png" alt="extra_skill" class="side-bar-extra_skill-img">
+                    <p class="font-word side-bar-extra_skill-item">Bootstrap, Materialize</p>
+                </div>
+                <div class="side-bar-extra_skill-container">
+                    <img src="images/profile/extra-skills/Icons.png" alt="extra_skill" class="side-bar-extra_skill-img">
+                    <p class="font-word side-bar-extra_skill-item">Stylus, Sass, Less</p>
+                </div>
+                <div class="side-bar-extra_skill-container">
+                    <img src="images/profile/extra-skills/Icons.png" alt="extra_skill" class="side-bar-extra_skill-img">
+                    <p class="font-word side-bar-extra_skill-item">Gulp, Webpack, Grunt</p>
+                </div>
+                <div class="side-bar-extra_skill-container" style="padding-bottom: unset;">
+                    <img src="images/profile/extra-skills/Icons.png" alt="extra_skill" class="side-bar-extra_skill-img">
+                    <p class="font-word side-bar-extra_skill-item">GIT Knowledge</p>
+                </div>
+            </div>
+
+            <div class="side-bar-line"></div>
+
+            <!-- download-cv -->
+            <!-- nhấp vào download cv có điều bất ngờ -->
+            <a class="side-bar-download_cv" href="https://www.youtube.com/watch?v=BBJa32lCaaY&list=RDBBJa32lCaaY&start_radio=1">
+                <p style="padding-left: 40px">DOWNLOAD CV</p>
+                <img src="images/profile/download_cv/Frame.png" alt="download-cv" style="padding-right: 39px;">
+            </a>
+        </aside>
+
+        <!-- main area -->
+        <main class="main-side">
+            <div class="main-side-hire">
+                <img src="images/main-side/hire/Ellipse 15.png" alt="icon" class="main-side-hire-item1">
+                <img src="images/main-side/hire/Ellipse 16.png" alt="icon" class="main-side-hire-item2">
+                <img src="images/main-side/hire/Ellipse 16.png" alt="icon" class="main-side-hire-item3">
+                <img src="images/main-side/hire/Rectangle 52.png" alt="icon" class="main-side-hire-item4">
+                <img src="images/main-side/hire/Ellipse 15.png" alt="icon" class="main-side-hire-item5">
+                <img src="images/main-side/hire/Rectangle 51.png" alt="icon" class="main-side-hire-item6">
+                <img src="images/main-side/hire/Polygon 1.png" alt="icon" class="main-side-hire-item7">
+                <img src="images/main-side/hire/Your Image 1.png" alt="icon" class="main-side-hire-item8">
+                <div class="main-side-hire-item9">
+                    <p>I’m Rayan Adlrdard</p>
+                    <div style="display: flex; gap: 20px;">
+                        <p style="color: #FFB400;">Front-end</p>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <p class="main-side-hire-item10 font-word" style="font-size: 16px; color: #767676;">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Et, volutpat feugiat placerat lobortis. Natoque <br> rutrum semper sed suspendisse nunc lectus.</p>
+                <div class="main-side-hire-item11">
+                    <p>HIRE ME</p>
+                    <img src="images/main-side/hire/Frame.png" alt="icon" style="width: 16px; height: 16px;">
+                </div>
+            </div>
+
+            <div class="main-side-My_Services">
+                <div class="main-side-My_Services-container1">
+                    <div class="main-side-My_Services-container1-item1 font-title-main-side">
+                        My Services
+                    </div>
+                    <div class="main-side-My_Services-container1-item2 font-word">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+                    </div>
+                </div>
+                <div class="main-side-My_Services-container2">
+                    <div class="main-side-My_Services-container2-item1">
+                        <img src="images/main-side/My_services/Group.jpg" alt="icon">
+                        <p class="font-title" style="color: #2B2B2B;">web development</p>
+                        <p class="font-word">blog, e-commerce</p>
+                    </div>
+                    <div class="main-side-My_Services-container2-item1">
+                        <img src="images/main-side/My_services/illustration.png" alt="icon">
+                        <p class="font-title" style="color: #2B2B2B;">uI/uX design</p>
+                        <p class="font-word">Mobile app, website design</p>
+                    </div>
+                    <div class="main-side-My_Services-container2-item1">
+                        <img src="images/main-side/My_services/Microphone.png" alt="icon">
+                        <p class="font-title" style="color: #2B2B2B;">Sound design</p>
+                        <p class="font-word">Voice Over, Beat Making</p>
+                    </div>
+                    <div class="main-side-My_Services-container2-item1">
+                        <img src="images/main-side/My_services/game-development.png" alt="icon">
+                        <p class="font-title" style="color: #2B2B2B;">game design</p>
+                        <p class="font-word">Character Design, Props & Objects</p>
+                    </div>
+                    <div class="main-side-My_Services-container2-item1">
+                        <img src="images/main-side/My_services/Photographer.png" alt="icon">
+                        <p class="font-title" style="color: #2B2B2B;">Photography</p>
+                        <p class="font-word">portrait, product photography</p>
+                    </div>
+                    <div class="main-side-My_Services-container2-item2">
+                        <p class="font-title" style="color: #2B2B2B;">Advertising</p>
+                        <p class="font-word" style="color: #767676;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.</p>
+                        <p>ORDER NOW ></p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-side-Price_plans">
+                <div class="main-side-Price_plans-container1">
+                    <div class="font-title-main-side main-side-Price_plans-container1-item1">Price plans</div>
+                    <div class="font-word main-side-Price_plans-container1-item2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</div>
+                </div>
+
+                <div class="main-side-Price_plans-container">
+                    <div class="main-side-Price_plans-container-box">
+                        <div class="main-side-Price_plans-container-box-item1">silver</div>
+                        <div class="main-side-Price_plans-container-box-item2">
+                            <p class="font-title-main-side">$0.00</p>
+                            <p class="font-word">/hour</p>
+                        </div>
+                        <div class="main-side-Price_plans-container-box-item3 font-word">For most businesses that want to optimize web queries</div>
+                        <div class="main-side-Price_plans-container-box-item4">
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">UI Design</div>
+                            </div>
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">web development</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">logo design</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">seo optimization</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">wordPress integration</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">5 Websites</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">unlimited user</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container3">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">20 gB bandwith</div>
+                            </div>
+                        </div>
+
+                        <div class="main-side-Price_plans-container-box-item5">
+                            <img src="images/main-side/Price_plans/Rectangle 55.png" alt="button">
+                            <div class="main-side-Price_plans-container-box-item5-container">ORDER NOW</div>
+                        </div>
+                    </div>
+                    <div class="main-side-Price_plans-container-box" style="padding-top: 0px;">
+                        <div style="width: 310px; height: 30px; background: #FFB400; margin-bottom: 24px; text-align: center; align-content: center;" class="font-word">most popular</div>
+                        <div class="main-side-Price_plans-container-box-item1">gold</div>
+                        <div class="main-side-Price_plans-container-box-item2">
+                            <p class="font-title-main-side">$50.00</p>
+                            <p class="font-word">/hour</p>
+                        </div>
+                        <div class="main-side-Price_plans-container-box-item3 font-word">For most businesses that want to optimize web queries</div>
+                        <div class="main-side-Price_plans-container-box-item4">
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">UI Design</div>
+                            </div>
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">web development</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">logo design</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">seo optimization</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">wordPress integration</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">5 Websites</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">unlimited user</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Close.png" alt="icon">
+                                <div class="font-word">20 gB bandwith</div>
+                            </div>
+                        </div>
+
+                        <div class="main-side-Price_plans-container-box-item5">
+                            <img src="images/main-side/Price_plans/Rectangle 56.png" alt="button">
+                            <div class="main-side-Price_plans-container-box-item5-container">ORDER NOW</div>
+                        </div>
+                        
+                    </div>
+                    <div class="main-side-Price_plans-container-box">
+                        <div class="main-side-Price_plans-container-box-item1">dimond</div>
+                        <div class="main-side-Price_plans-container-box-item2">
+                            <p class="font-title-main-side">$80.00</p>
+                            <p class="font-word">/hour</p>
+                        </div>
+                        <div class="main-side-Price_plans-container-box-item3 font-word">For most businesses that want to optimize web queries</div>
+                        <div class="main-side-Price_plans-container-box-item4">
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">UI Design</div>
+                            </div>
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">web development</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">logo design</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">seo optimization</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">wordPress integration</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">5 Websites</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">unlimited user</div>
+                            </div> 
+                            <div class="main-side-Price_plans-container-box-item4-container1">
+                                <img src="images/main-side/Price_plans/Check.png" alt="icon">
+                                <div class="font-word">20 gB bandwith</div>
+                            </div> 
+                        </div>
+                        <div class="main-side-Price_plans-container-box-item5">
+                            <img src="images/main-side/Price_plans/Rectangle 55.png" alt="button">
+                            <div class="main-side-Price_plans-container-box-item5-container">ORDER NOW</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </main>
+
+        <!-- right area -->
+        <div class="right-side">
+            <img src="images/right-side/Contrast.png" alt="" class="right-side-contract">
+            <img src="images/right-side/Pop up.png" alt="" class="right-side-Pop-up">
+            <img src="images/right-side/Home.png" alt="" class="right-side-item">
+            <img src="images/right-side/Service.png" alt="" class="right-side-item">
+            <img src="images/right-side/Cv.png" alt="" class="right-side-item">
+            <img src="images/right-side/Portfolio.png" alt="" class="right-side-item">
+            <img src="images/right-side/Blog.png" alt="" class="right-side-item">
+            <img src="images/right-side/Contact.png" alt="" class="right-side-item">        </div>
+    </div>
+
+</body>
 </html>
+
